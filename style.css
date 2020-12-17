@@ -1,0 +1,16 @@
+:root {
+  --variable-name: value;
+  --dsf: black;
+}
+
+
+*{
+    width:100vh;
+    height:100vh;
+
+}
+.balls {
+  background-color: var(--dsf);
+  border-radius: 10px;
+  
+}
