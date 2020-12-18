@@ -15,12 +15,13 @@
 }
 /* container */
 .carpet {
-  position: relative;
-  left: 200px;
+  
+  position: absolute;
+  left: 300px;
   width: 600px;
   margin: 0;
-  /* background-image: url(asset/carpet3-2.png); */
-  background-size: cover;
+  /* background-image: url(asset/carpet3-2.png);
+  background-size: cover; */
 }
 
 /* cat */
@@ -68,14 +69,14 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: white;
-  border: 40px solid white;
+  /* background-color:; */
+  border: 40px solid rgba(255, 255, 255, 0);
   border-left: 40px solid black;
   position: absolute;
   bottom: -9px;
   left: 2px;
   transform: rotate(-20deg);
-  z-index: -1;
+  /* z-index: ; */
 }
 
 .catTailEnd {
@@ -91,7 +92,7 @@ body {
 .leftEye,
 .rightEye {
   width: 40px;
-  height: 40px;
+  height: 35px;
   border-radius: 50%;
   background-color: yellow;
   position: absolute;
@@ -104,8 +105,8 @@ body {
 }
 
 .pupil {
-  width: 65%;
-  height: 65%;
+  width: 50%;
+  height: 98%;
   background-color: black;
   border-radius: 50%;
   position: absolute;
@@ -187,10 +188,33 @@ body {
 }
 
 .ball {
-  width: 20px;
-  height: 19px;
-  margin: 6px;
-  background-color: var(--dsf);
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+  background-color: rgb(75, 68, 10);
   border-radius: 50%;
   background-image: url(asset/yarn2.png);
+  background-size: cover;
+}
+
+/* classListadd  > -clicked */
+.clicked {
+  display: none;
+}
+
+.yarn{
+    height: 88px;
+    width: 88px;
+    left: 85px;
+    top: 189px;
+  
+  position:absolute;
+}
+.yarn2{
+  height:100px;
+  width:100px;
+  left:368px;
+  top: 246px;
+  
+  position:absolute;
 }
