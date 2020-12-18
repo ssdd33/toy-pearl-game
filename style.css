@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+
 :root {
   --variable-name: value;
   --dsf: black;
@@ -6,6 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
 }
 
 .body {
@@ -64,7 +67,7 @@ body {
   z-index: 1;
   border-radius: 60px 60px 0 0;
 }
-
+ㅅ
 .catTail {
   width: 200px;
   height: 200px;
@@ -191,7 +194,7 @@ body {
   width: 30px;
   height: 30px;
   margin: 2px;
-  background-color: rgb(75, 68, 10);
+  background-color: rgba(75, 68, 10, 0.699);
   border-radius: 50%;
   background-image: url(asset/yarn2.png);
   background-size: cover;
@@ -217,4 +220,64 @@ body {
   top: 246px;
   
   position:absolute;
+}
+
+.description{
+
+  position:absolute;
+  width:550px;
+  height:400px;
+  top:80px;
+  z-index:1;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding:20px;
+  background-color: rgba(255, 255, 0, 0.459);
+  border-radius: 10%;
+
+}
+.leftKor{
+
+}
+.rightEng{
+  right:10px;
+}
+.kor{
+
+}
+/* button */
+
+.nextButton {
+  position:absolute;
+  bottom:-205px;
+  left:513px;
+  /* position: relative;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold; */
+
+}
+
+.startButton{
+  position:absolute;
+  bottom:-205px;
+  left:536px;
+  
+}
+
+/* afer click start button
+*/
+
+.removed{
+  display:none;
 }
